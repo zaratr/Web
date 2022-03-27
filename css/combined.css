@@ -1,0 +1,270 @@
+#mainNav
+{
+	background-color: #212529;
+}
+
+#mainNav .navbar-toggler
+{
+	font-size: 12px;
+	right: 0;
+	padding: 13px;
+	text-transform: uppercase;
+	color: black;
+	border: 0;
+	background-color: #fcbc1d;
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	font-weight: 700;
+}
+
+#mainNav .navbar-brand
+{
+	color: #fbab25;
+	font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover
+{
+	color: #fbab25;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+	font-size: 90%;
+	font-weight: 400;
+	padding: 0.75em 0;
+	letter-spacing: 1px;
+	color: white;
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	-webkit-transition: background 0.1s ease-in-out;
+	-moz-transition: background 0.1s ease-in-out;
+	transition: background 0.1s ease-in-out;
+	transition: color 0.1s ease-in-out;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover
+{
+	color: #fcbc1d;
+}
+
+@media (min-width: 992px)
+{
+	#mainNav
+	{
+		padding-top: 25px;
+		padding-bottom: 25px;
+		-webkit-transisition: padding-top .3s, padding-bottom .3s;
+		-moz-transition: padding-top .3s, padding-bottom .3s;
+		transition: padding-top .3s, padding-bottom .3s;
+		border: none;
+		background-color: transparent;
+
+	}
+	#mainNav .navbar-brand
+	{
+		font-size: 1.75em;
+		-webkit-transisition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+
+	}
+
+	#mainNav .navbar-nav .nav-item .nav-link
+	{
+		padding: 1.1em 0.75em !important;
+	}
+	#mainNav.navbar-shrink
+	{
+		padding-top: 0;
+		padding-bottom: 0;
+		background-color: #212529;
+	}
+
+	#mainNav.navbar-shrink .navbar-brand
+	{
+		font-size: 1.25em;
+		padding: 12px;
+	}
+}
+
+::selection
+{
+	background: #fcbc1d;
+	text-shadow: none;
+}
+
+header.masthead
+{
+	text-align: center;
+	color: white;
+	background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.1)),url(/img/images/ptown.JPG);
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-position: left center;
+	background-size: cover;
+}
+/*header*/
+
+.img-circle
+{
+	margin:	auto;
+	border-radius: 50%;
+	/*background-color: #26262b;*/
+	background-color: #131313;
+}
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img
+{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+body
+{
+	font-family: 'Source Sans Pro';
+}
+
+body, html
+{
+	width: 100%;
+	height: 100%;
+}
+
+/*button "enter portfolio"*/
+
+.btn
+{
+	box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.1);
+	font-weight: 700;
+}
+
+.about-btn
+{
+	padding: 16px 32px;
+}
+
+
+.btn-xl
+{
+	padding: 1.25rem 2.5rem;
+	font-size: 18px;
+}
+
+
+/*Client bar*/
+.client-link
+{
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.client-link img
+{
+	max-width: 250px;
+	mak-height: 60px;
+}
+
+aside.clients img
+{
+	margin: 10px auto
+}
+
+
+/*intro*/
+.team-member
+{
+	text-align: center;
+}
+
+.list-inline > li
+{
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+ul.social-buttons li a
+{
+	font-size: 20px;
+	line-height: 40px;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	color: white;
+	border-radius:100%;
+	outline: none;
+	background-color: #212529;
+}
+
+ul.social-buttons
+{
+	margin-bottom: 0;
+}
+
+.list-inline
+{
+	padding-left: 0;
+	margin-left: -5px;
+	list-style: none;
+}
+
+.btn
+{
+	box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.1);
+	font-weight: 700;
+}
+
+.btn-xl
+{
+	padding: 1.25rem 2.5rem;
+}
+
+.btn-dark
+{
+	color: white !important;
+
+}
+
+@media (min-width: 992px)
+{
+	#intro-section
+	{
+		padding-left: 2.25rem;
+	}
+}
+
+@media (max-width: 992px)
+{
+	#social1
+	{
+		visibility: hidden;
+		height: 0px !important;
+		margin-top: 0px !important;
+	}
+}
+
+@media (min-width: 992px)
+{
+	#social2
+	{
+		visibility: hidden;
+	}
+}

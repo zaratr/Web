@@ -1,0 +1,121 @@
+javascript notes:
+
+Codefellows teaches vanilla javascript in 201.
+study this and bootstrap
+//this is to comment
+//var -> this isn't used anymore to represent a variable
+//let -> useful and is equivelent to auto in c++
+//const -> is the same as constant variable.
+
+
+//Primitive data Types: String, Numbers, Boolean, null, undefined
+//! javascript uses datatypes like auto so you can have const age = 30 without stating primitive data type.
+//typeof -> tells you what datatype it is
+
+
+concatinating:
+
+const s= 'HelloWorld';
+s.length tells the string size.
+s.substring(0, 5);
+s.toUpperCase();
+s.split(', ') splits into an array with a seperator ', ' this will seperate "h, e, l, l, o" to "h", "e", "l", "l", "o"
+
+arrays:
+
+const fruits = ['apples', 'oranges', 'pears', 10, true]; does not need same datatype
+const fruits cannot be changed but the contents individually can be changed.
+typescript is super parent to javascript. typescript -> javascript
+array.isArray('hello'); returns bool
+
+object literals:
+
+aka classes
+fields in java are key value pairs
+to do them you must define with const
+const people
+{
+    firstName: Raul,
+    lastName: Zarate,
+    age: 32,
+    hobbies: ['music', 'hanging'],
+    //here is a object within an object
+    address: {
+        street: '50 miniap st',
+        city: 'boston'
+    }
+}
+
+add to the object by calling it.
+people.email = 'z@gmail.com'
+
+arrays act like tuples in python
+
+const todos = [
+    {
+        stuff: 'skdjf',
+        nums : 28
+
+    }
+
+    {
+        stuff: 'skdf',
+        nums: 33,
+    }
+]
+
+console.log(todos[0].nums)
+
+for(int i; i < 10; i++)
+{
+    console.log('for loop num: ${i}')
+}
+
+todos.forEach(function(aName))
+{
+    console.log(aName.nums)
+}
+
+mapping just adds onto the array 
+const todoText = todos.map(function(aName))
+{
+    return aName.text
+}.map(function(aName))// this will filter out like lambda 
+{
+    return aName.stuff;
+}
+console.log(todoText)
+
+=== matches the data types and also check the digit
+== will just match the number even if it is a string.
+
+let x = 10
+
+if(x == '10') returns true
+if(x === '10') return false since data types dont match
+
+
+functions:
+
+function addNum(num1 = 0 , num2 = 0)
+{
+    return num1+num2;
+}
+
+-or-
+use a fat arrow
+const addNum= (num1, num2) =>
+{
+    console.log(num1+num2)
+}
+-or-
+const addNum = (num1, num2) => num1+num2;
+
+
+
+
+
+
+
+
+
